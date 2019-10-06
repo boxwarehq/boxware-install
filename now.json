@@ -1,7 +1,6 @@
 {
   "name": "boxware-install",
   "version": 2,
-  "scope": "boxware",
   "github": {
     "enabled": true,
     "silent": true
