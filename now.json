@@ -10,6 +10,10 @@
     {
       "src": "index.js",
       "use": "@now/node"
+    },
+    {
+      "src": "/public/*",
+      "use": "@now/static"
     }
   ],
   "routes": [
