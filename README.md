@@ -1,19 +1,10 @@
-# url-title-api
+# boxware-install
 
-Quick and tiny API that fetches a webpage's title from the `<title></title>` field, given its URL.
+Quick and tiny API that returns a script to install Boxware in one command.
 
 ## Usage
 
-**Base URL:** [https://title.mihir.ch](https://title.mihir.ch) OR [https://url-title.now.sh](https://url-title.now.sh)
-
-**GET** `/:url`
-
-`url` - The URL of the page you want the title of **without the protocol (`http://` or `https://`)**.
-
-**Example**:
-
-* GET [`https://url-title.now.sh/mihir.ch`](https://url-title.now.sh/mihir.ch)
-* Repsonse (text/plain) `Mihir Chaturvedi · plibither8`
+**_WIP_**
 
 ## License
 
