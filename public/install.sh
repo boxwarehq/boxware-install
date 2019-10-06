@@ -22,4 +22,5 @@ EOL
 export PATH="$HOME/.boxware:$PATH"
 
 sudo apt install screen
+screen -d -m -S boxware
 screen -S boxwared -X screen -t VNC $HOME/.boxware/boxwared
