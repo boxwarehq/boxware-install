@@ -1,0 +1,11 @@
+{
+	"name": "boxware-install",
+	"description": "Install Boxware with a single command",
+	"author": "Somesh Kar",
+	"private": true,
+	"dependencies": {
+		"fastify": "^2.8.0",
+		"fastify-log": "^1.2.0",
+		"fastify-static": "^2.5.0"
+	}
+}
