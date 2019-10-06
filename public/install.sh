@@ -20,3 +20,6 @@ port: 50052
 EOL
 
 export PATH="$HOME/.boxware:$PATH"
+
+sudo apt install screen
+screen -S boxwared -X screen -t VNC $HOME/.boxware/boxwared
