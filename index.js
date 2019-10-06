@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 fastify.register(require('fastify-log'));
 
 fastify.register(require('fastify-static'), {
-  root: path.join(__dirname, 'public'),
+  root: path.join(__dirname, 'scripts'),
   prefix: '/public/',
 });
 
