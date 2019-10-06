@@ -1,4 +1,4 @@
-const fastify = require('fastify')();
+const fastify = require('fastify')({ logger: true });
 const path = require('path');
 
 const port = process.env.PORT || 3000;
