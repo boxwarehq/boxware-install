@@ -3,10 +3,10 @@ set -e
 
 echo "Installing Boxware now"
 
-sudo wget http://files.somesh.co/boxware/boxware -o /usr/local/bin/boxware
-sudo wget http://files.somesh.co/boxware/boxwared -o /usr/local/bin/boxwared
+mkdir $HOME/.boxware
 
-sudo chmod +x /usr/local/bin/boxware
-sudo chmod +x /use/local/bin/boxwared
+sudo wget http://files.somesh.co/boxware/boxware -o $HOME/.boxware/boxware
+sudo wget http://files.somesh.co/boxware/boxwared -o $HOME/.boxware/boxwared
 
-boxwared &
+sudo chmod +x $HOME/.boxware/boxware
+sudo chmod +x $HOME/.boxware/boxwared
