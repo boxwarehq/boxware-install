@@ -1,6 +1,7 @@
 {
   "name": "boxware-install",
   "version": 2,
+  "alias": ["get.boxware.now.sh"],
   "github": {
     "enabled": true,
     "silent": true
