@@ -4,7 +4,7 @@
 	"author": "Somesh Kar",
 	"private": true,
 	"dependencies": {
-		"fastify": "^2.8.0",
+		"fastify": "^2.15.1",
 		"fastify-log": "^1.2.0",
 		"fastify-static": "^2.5.0"
 	}
