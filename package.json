@@ -6,6 +6,6 @@
 	"dependencies": {
 		"fastify": "^2.8.0",
 		"fastify-log": "^1.2.0",
-		"fastify-static": "^2.5.0"
+		"fastify-static": "^4.2.4"
 	}
 }
